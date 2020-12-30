@@ -1,0 +1,63 @@
+@import url(https://fonts.google.com/specimen/Darker+Grotesque);
+
+body{
+    background-color: rgb(12, 38, 110);
+    color: rgb(201, 201, 201);
+    font-family: 'Darker+Grotesque', sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+p{
+    width: auto;
+    border: 7px solid whitesmoke;
+    padding: 50px;
+    margin: 20px;
+    
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 573px;
+    max-height: 430px;
+    /*US #8 & #9 */
+}
+
+.caption{
+    text-align: center;
+    font-size: smaller;
+    padding: 5px;
+    border: 1px dotted whitesmoke;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+a:link {
+    color: white;
+}
+
+a:visited{
+    color:rgb(0, 255, 0);
+}
+
+a:hover{
+    color: rgb(2, 94, 2);
+}
+
+a:active{
+    color: rgb(255, 103, 255);
+}
